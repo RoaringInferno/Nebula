@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "test/test.hpp"
+#include "test.hpp"
 
 int main() {
     test::HelloWorld();
