@@ -1,7 +1,7 @@
 # NebulaRender
 A rendering engine for creating professional GUIs.
 
-# Project Board (TODO)
+# TODO
 ## OS Interface
 - Consistently named functions
 - At compile, the interface should produce a different set of functions for mac and windows.
