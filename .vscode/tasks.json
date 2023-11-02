@@ -5,7 +5,7 @@
         "label": "build",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "cpp/*.cpp", "-o", "app"],
+        "args": ["-g", "src/*.cpp", "main.cpp", "test/*.cpp", "-o", "app"],
         "group": {
           "kind": "build",
           "isDefault": true
