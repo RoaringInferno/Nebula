@@ -5,7 +5,7 @@
         "label": "build",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "src/*.cpp", "main.cpp", "test/*.cpp", "-o", "app"],
+        "args": ["-g", "nebula/src/*.cpp", "nebulous/src/*.cpp", "nebular/win/src/*.cpp", "nebular/mac/src/*.cpp", "nebular/linux/src/*.cpp", "test/*.cpp", "-o", "app"],
         "group": {
           "kind": "build",
           "isDefault": true
